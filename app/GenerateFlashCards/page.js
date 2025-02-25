@@ -4,6 +4,12 @@ import React, { useState, useRef } from "react";
 import { Box, TextField, Button, Stack } from "@mui/material";
 import FlashCard from "@/components/FlashCard";
 import Grid from "@mui/material/Grid2";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 export default function FlashcardPage() {
   const [input, setInput] = useState("");
